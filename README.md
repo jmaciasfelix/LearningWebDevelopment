@@ -10,7 +10,7 @@ Gracias todo esto tenía una visión más clara del desarrollo web y aprendí la
 - HTTPS.
 - PHP, Ajax y MySQL.
 
-Un gran amigo me hablo de React ⚛️ y decidí apostar por esta gran librería. Leí la [documentación oficial de React](https://es.reactjs.org/docs/getting-started.html) y pequeños desarrollos para apoyar la documentación de React. También, me apoye en los conocimientos de Miguel Angel García Duran que compartía sus conocimentos y experiencia en su [canal de Youtube](https://www.youtube.com/channel/UC8LeXCWOalN8SxlrPcG-PaQ)
+⚛️ Un gran amigo me hablo de React y decidí apostar por esta gran librería. Leí la [documentación oficial de React](https://es.reactjs.org/docs/getting-started.html) y pequeños desarrollos para apoyar la documentación de React. También, me apoye en los conocimientos de Miguel Angel García Duran que compartía sus conocimentos y experiencia en su [canal de Youtube](https://www.youtube.com/channel/UC8LeXCWOalN8SxlrPcG-PaQ)
 
 Finalmente, decidí buscar empleo y realicé dos cursos impartidos por una empresa:
 - Angular 9 e Ionic4: ES6, Programación funcional, SASS, servicios REST
