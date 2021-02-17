@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <title>Responsive Utilities</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- 
+              https://getbootstrap.com/docs/4.0/utilities/display/
+              Hay podemos ver la tabla de display de Bootstrap
+           -->
+        <div class="col columna">
+          <h1>Columna</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col columna d-block d-sm-none">
+          <p>
+            XS
+          </p>
+        </div>
+        <div class="col columna d-none d-sm-block d-md-none">
+          <p>
+            SM
+          </p>
+        </div>
+        <div class="col columna d-none d-md-block d-lg-none">
+          <p>
+            MD
+          </p>
+        </div>
+        <div class="col columna d-none d-lg-block d-xl-none">
+          <p>
+            LG
+          </p>
+        </div>
+        <div class="col columna d-none d-xl-block">
+          <p>
+            XL
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

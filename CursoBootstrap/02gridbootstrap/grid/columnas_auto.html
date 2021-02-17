@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <title>Columnas Automaticas</title>
+  </head>
+  <body class="col-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h3>Columnas #1</h3>
+        </div>
+        <!-- 
+            Con col-auto solo se usa el espacio que necesita, le podemos decir que sea auto a partir
+            de un tamaño. Por ejemplo col-auto-lg 
+            col abarca el espacio restante.
+        -->
+        <div class="col-auto colorSec">
+          <h3>Columnas #2</h3>
+        </div>
+        <div class="col">
+          <h3>Columnas #3</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Columna #1</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+            deserunt, consectetur facilis dolorem atque officiis. Excepturi
+            consequuntur dicta, a tenetur, ducimus numquam obcaecati nostrum
+            deleniti commodi, dolore sequi impedit hic.
+          </p>
+        </div>
+        <div class="col">
+          <h4>Columna #2</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+            deserunt, consectetur facilis dolorem atque officiis. Excepturi
+            consequuntur dicta, a tenetur, ducimus numquam obcaecati nostrum
+            deleniti commodi, dolore sequi impedit hic.
+          </p>
+        </div>
+        <!-- 
+            Separadores en Bootstrap agregando un ancho de 100 
+            Tambien podriamos crear dos row
+            Tambien se puede indicar col-12 y tomaria todo el espacio consiguiendo que las demas col
+            quedaran abajo
+        -->
+        <div class="w-100"></div>
+        <div class="col">
+          <h4>Columna #3</h4>
+          <p>
+            Se ha separado usando un separador w-100. Misma columna pero en
+            diferentes filas.
+          </p>
+        </div>
+        <div class="col">
+          <h4>Columna #4</h4>
+          <p>
+            Se podria haber usado col-12.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h5>Esto es otra fila separada con row</h5>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

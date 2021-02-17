@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <title>Columnas Alineadas Verticalmente</title>
+  </head>
+  <body class="col-align-vertical">
+    <div class="container">
+      <!-- Por defecto las columnas toman todo el heigh de su padre row -->
+      <div class="row">
+        <div class="col">Columna #1</div>
+        <div class="col">Columna #2</div>
+        <div class="col">Columna #3</div>
+      </div>
+      <!-- Pone las columnas al principio de row -->
+      <div class="row align-items-start">
+        <div class="col">Columna #1</div>
+        <div class="col">Columna #2</div>
+        <div class="col">Columna #3</div>
+      </div>
+      <!-- Centra las columnas verticalmente -->
+      <div class="row align-items-center">
+        <div class="col">Columna #1</div>
+        <div class="col">Columna #2</div>
+        <div class="col">Columna #3</div>
+      </div>
+      <!-- Pone las columnas al final de su elemento padre row -->
+      <div class="row align-items-end">
+        <div class="col">Columna #1</div>
+        <div class="col">Columna #2</div>
+        <div class="col">Columna #3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h2>Alineacion independiente</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Esto lo conseguimos con align-SELF-[start,center,end] -->
+        <div class="col align-self-start">Columna #1</div>
+        <div class="col align-self-center">Columna #2</div>
+        <div class="col align-self-end">Columna #3</div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

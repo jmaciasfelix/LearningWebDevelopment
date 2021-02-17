@@ -1,0 +1,95 @@
+/*
+  grid.html
+*/
+
+/* Todos los elementos div que esten dentro del row, es decir, todas las columnas */
+.grid .row > div {
+  background: #f2f2f2;
+  margin: 10px 0;
+}
+
+/* 
+  columnas_auto.html
+*/
+.col-auto .row > div {
+  text-align: center;
+  background: #f2f2f2;
+  margin: 10px 0;
+}
+.col-auto .colorSec {
+  background: #dbdbdb !important;
+}
+
+/*
+  Col-align-vertical.html
+*/
+.col-align-vertical .row {
+  background: #e8e8e8;
+  height: 150px;
+  margin-top: 20px;
+}
+.col-align-vertical .col {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #4d5061;
+}
+/*
+  Col-align-horizontal.html
+*/
+.col-align-horizontal .row {
+  background: #e8e8e8;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.col-align-horizontal .columna {
+  text-align: center;
+  background: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #4d5061;
+}
+/*
+  Offsetting
+*/
+.offsetting .row {
+  background: #e8e8e8;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.offsetting .columna {
+  text-align: center;
+  background: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #4d5061;
+}
+
+/*
+ Ordenar columnas en bootstrap
+*/
+.ordena-col .row {
+  background: #e8e8e8;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.ordena-col .columna {
+  text-align: center;
+  background: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #4d5061;
+}
+
+/*
+  Col anidadas  
+*/
+
+.col-anidadas .row {
+  background: #e8e8e8;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.col-anidadas .columna {
+  text-align: center;
+  background: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #4d5061;
+}

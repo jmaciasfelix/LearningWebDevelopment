@@ -1,0 +1,43 @@
+body {
+  background: grey;
+}
+
+.header {
+  background: green;
+  color: white;
+  padding: 1rem 0;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+.contenido {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+main {
+  background: white;
+  padding: 1rem 0;
+}
+aside {
+  background: rgb(70, 65, 65);
+  padding: 3rem 0;
+  color: aqua;
+}
+
+.color-azul {
+  background: aqua;
+  color: white;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+.final {
+  background: black;
+  color: white;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}

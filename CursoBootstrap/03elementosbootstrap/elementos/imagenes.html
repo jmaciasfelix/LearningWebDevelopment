@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <style>
+      .columna {
+        margin-top: 2rem;
+        /* background: #f2f2f2;
+        border: 1px solid #424242; */
+      }
+    </style>
+    <title>Imagenes</title>
+  </head>
+  <body>
+    <!-- Con container-fluid hacemos width 100% -->
+    <div class="container-fluid">
+      <!-- no-gutters elimina padding generados por las columnas -->
+      <div class="row no-gutters">
+        <div class="col-6 columna">
+          <!-- img-fluid la img se adapta al 100% del elemento padre y no puede crecer mas -->
+          <img
+            class="img-fluid float-right img-thumbnail"
+            src="https://picsum.photos/200"
+            alt="Img"
+          />
+          <!-- Con rounded redondeamos las esquinas de la img -->
+          <img
+            class="img-fluid float-left rounded"
+            src="https://picsum.photos/200"
+            alt="Img"
+          />
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-6">
+          <figure class="figure">
+            <img
+              class="img-fluid rounded"
+              src="https://picsum.photos/400"
+              alt="Img"
+            />
+            <!-- Con figcaption podemos poner texto a la img justo debajo de forma guay -->
+            <figcaption class="figure-caption">
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

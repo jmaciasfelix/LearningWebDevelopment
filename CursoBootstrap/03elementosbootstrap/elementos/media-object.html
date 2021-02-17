@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <style></style>
+    <title>Media Object</title>
+  </head>
+  <body>
+    <!-- Con container-fluid hacemos width 100% -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h1>Media Object</h1>
+          <hr />
+          <div class="media">
+            <!-- Con la clase d-flex le indicamos que la img se comporte con display flex -->
+            <img
+              src="https://picsum.photos/64"
+              alt="img"
+              class="d-flex align-self-start mr-3"
+            />
+            <!-- mr margin right 3 tenemos de 1 a 5  -->
+            <div class="media-body">
+              <h4 class="mt-0">Encabezado</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                nesciunt mollitia maiores dolore nostrum. Similique eveniet,
+                soluta eos aut delectus nulla, ratione quod veritatis
+                necessitatibus veniam tempora at dolorem sequi?
+              </p>
+              <hr />
+              <div class="media">
+                <!-- Con la clase d-flex le indicamos que la img se comporte con display flex -->
+                <img
+                  src="https://picsum.photos/64"
+                  alt="img"
+                  class="d-flex align-self-start mr-3"
+                />
+                <!-- mr margin right 3 tenemos de 1 a 5  -->
+                <div class="media-body">
+                  <h4 class="mt-0">Comentario 1</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
+                  <hr />
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="media">
+            <!-- mr margin right 3 tenemos de 1 a 5  -->
+            <div class="media-body">
+              <h4 class="mt-0 text-right">Encabezado</h4>
+              <p class="text-right">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+              <hr />
+            </div>
+            <!-- Con la clase d-flex le indicamos que la img se comporte con display flex -->
+            <img src="https://picsum.photos/64" alt="img" class="ml-3" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

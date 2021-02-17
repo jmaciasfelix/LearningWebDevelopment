@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Offsetting</title>
+  </head>
+  <body class="offsetting">
+    <div class="container">
+      <div class="row">
+        <!-- Le damos un espacio a la derecha de 1 columna -->
+        <div class="columna col-auto offset-1">Columna</div>
+      </div>
+      <div class="row">
+        <!-- Centrar con offset -->
+        <div class="columna col-4 offset-4">Columna centrada</div>
+      </div>
+      <div class="row">
+        <!-- Con col auto la columna solo mide lo que necesita el hijo -->
+        <div class="columna col-auto offset-1">Columna 1</div>
+        <div class="columna col-auto offset-2">Columna 2</div>
+      </div>
+      <!-- Offset dependiendo del tam de la pantalla -->
+      <div class="row">
+        <div class="columna col-auto offset-1 offset-md-4">Columna</div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

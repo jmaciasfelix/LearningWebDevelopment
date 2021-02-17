@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <title>Tipografia Bootstrap 2</title>
+  </head>
+  <body>
+    <!-- Con container-fluid hacemos width 100% -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <!-- Con mark podemos subrayar texto -->
+          <p>
+            Lorem ipsum, dolor sit amet <mark>consectetur</mark> adipisicing
+            elit.
+          </p>
+          <!-- del y s hace lo mismo tachar -->
+          <p>
+            <del>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</del>
+          </p>
+          <p>
+            <s>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</s>
+          </p>
+          <p>
+            <ins>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</ins>
+          </p>
+          <p>
+            <u>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</u>
+          </p>
+          <p>
+            <small
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</small
+            >
+          </p>
+          <p>
+            <strong
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</strong
+            >
+          </p>
+          <p>
+            <em>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</em>
+          </p>
+        </div>
+        <div class="col-4">
+          <hr />
+          <p class="text-justify">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi in
+            eaque ipsa nihil nostrum? Magnam nemo iure sint cupiditate totam,
+            quis optio incidunt error fuga animi laborum, recusandae eum vitae?
+          </p>
+          <!-- Las cartas con cajas en las cuales podemos mostrar texto -->
+          <div class="card">
+            <div class="card-block">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              incidunt animi sint fugit porro non in nobis suscipit, nihil
+              dicta, cupiditate quaerat, doloribus sunt sit a magnam hic
+              aspernatur placeat.
+            </div>
+          </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-4">
+          <hr />
+          <p class="text-left font-weight-normal">
+            Texto alineado a la izq
+          </p>
+          <p class="text-right font-weight-bold">
+            Texto alineado a la dereecha
+          </p>
+          <p class="text-center">texto centrado</p>
+        </div>
+        <!-- Esto tambien se puede hacer dependiendo del tamaño de la pantalla del dispositivo -->
+        <!-- Tambien se pueden poner letras en mayusculas y minusculas con bootstrap Pero todo esto para mi es mas facil hacerlo desde un archivo css -->
+        <div class="w-100"></div>
+        <div class="col-6">
+          <blockquote class="blockquote">
+            <!-- Con esta clase le quitamos el margin bottom 0 -->
+            <p class="mb-0">
+              Lorem ipsum dolor sit, amet consectetur.
+            </p>
+            <!-- Creamos una cita -->
+            <footer class="blockquote-footer"><p>Jesus Macias</p></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

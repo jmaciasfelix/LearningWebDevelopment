@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Ejemplo de Grid con Bootstrao 4</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center mt-2">Agrega Rutina</h1>
+          <hr />
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <form>
+            <div class="campos-principales">
+              <div>
+                <p>
+                  Nombre:
+                </p>
+                <input
+                  id="nombre"
+                  type="text"
+                  name="nombre"
+                  placeholder="Tú nombre"
+                />
+              </div>
+              <div>
+                <p>
+                  Rutina:
+                </p>
+                <input
+                  id="rutina"
+                  type="text"
+                  name="rutina"
+                  placeholder="Tonificacíon"
+                />
+              </div>
+            </div>
+            <textarea id="info" name="textarea"> </textarea>
+            <div class="btn float-right">
+              <a>Publicar</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div id="contenedor-ejercicios" class="col-6">
+          <div class="media">
+            <!-- Con la clase d-flex le indicamos que la img se comporte con display flex -->
+            <img
+              src="https://picsum.photos/64"
+              alt="img"
+              class="d-flex align-self-start mr-3"
+            />
+            <!-- mr margin right 3 tenemos de 1 a 5  -->
+            <div class="media-body">
+              <h4 class="mt-0">Jesús Macías</h4>
+              <p>
+                Rutina de fuerza
+              </p>
+              <p>
+                Lunes -> Pecho | Martes -> Piernas | Miércoles -> Brazos
+              </p>
+              <hr />
+            </div>
+          </div>
+          <div class="w-100"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

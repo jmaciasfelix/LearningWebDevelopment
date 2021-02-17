@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Grid</title>
+  </head>
+  <body class="grid">
+    <!-- El container es el contenedor principal dentro de el van todas las filas y columnas -->
+    <!-- Con container podemos centrar nuestras paginas -->
+    <div class="container">
+      <!-- Siempre debe de existir esta estructura row > col > Contenido -->
+      <div class="row">
+        <!-- 
+            Tabla de los tamaños
+            .col     Extra pequeño  - Smartphone vertical   Menos de 544px
+            .col-sm  Pequeño        - Smartphone vertical   Mas de 544px y Menos de 768px
+            .col-md  Mediano        - Tablets               Mas de 768px y Menos de 992px
+            .col-lg  Largo          - Computadoras          Mas de 992px y Menos de 1200px
+            .col-xl  Extra largo    - Ultrawide             Mas de 1200px
+
+           -->
+        <!-- Si pongo col-md solo abarcaria el tamaño automatico, apartir del tam mediano todo tendra tam automatico-->
+        <div class="col-12 col-sm-6 col-md">
+          <h1>Hola Mundo</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos accusantium a, eum aliquid eius labore pariatur, aut
+            molestias quibusdam tempore porro? Quia earum magni vero odit iusto
+            dignissimos nihil quaerat?
+          </p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md">
+          <h1>Hola Mundo</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos accusantium a, eum aliquid eius labore pariatur, aut
+            molestias quibusdam tempore porro? Quia earum magni vero odit iusto
+            dignissimos nihil quaerat?
+          </p>
+        </div>
+        <div class="col-12">
+          <h1>Hola Mundo</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos accusantium a, eum aliquid eius labore pariatur, aut
+            molestias quibusdam tempore porro? Quia earum magni vero odit iusto
+            dignissimos nihil quaerat?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
